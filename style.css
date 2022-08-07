@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+body{
+    padding: 50px;
+    font-size: 20px;
+    margin: 30px 40px;
+
+}
+
+body h1{
+    padding-bottom: 20px;
+}
+
+ul{
+   list-style: none;
+}
+
+
+.people{
+    padding: 15px;
+    margin: 30px auto;
+
+}
+
+/* .people  input{
+    margin-left: 40px;
+} */
+
+.people .table1 input{
+    margin-left:60px ;
+}
+.people .table2 input{
+    margin-left:35px ;
+}
+.people .table3 input{
+    margin-left:60px ;
+}
+
+p{
+    padding-bottom: 10px;
+    padding-bottom: 10px;
+    font-weight:20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

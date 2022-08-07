@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survay</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <h1>Clarusway Surway Form</h1>
+    <p>Thank you for taking the time to help us iprove the platform </p>
+    <form action="result.html">
+        <div class="people">
+            <div class="table1">
+                <label for="name">Name   :</label>
+                <input type="text" id="name" name="isim" placeholder="Enter your name">
+            </div>
+
+            <div class="table2">
+                <label for="surname" id="">Surname :</label>
+                <input type="text" name="surname" placeholder="Ente your Surname">
+            </div>
+
+            <div class="table3">
+                <label for="mail">Email :</label>
+                <input type="email" id="mail" placeholder="user@clarusway.com">
+            </div>
+
+        </div>
+
+        <div class="people">
+            <p>Which option best describes your current role?</p>
+            <select name="roles" id="optionrole">
+
+                <option value="student">select current role</option>
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="fulltimejob">full Time Job</option>
+                <option value="PartTimeJob">Part Time Job</option>
+                <option value="FullTimeLearner">Full Time Learner</option>
+                <option value="Part Time Learner">Part Time Learner</option>
+
+            </select>
+
+
+        </div>
+
+        <div class="people">
+
+            <p>Would you recommend Clarusway to a friend ?</p>
+            <ul>
+                <li>
+                    <input type="radio" id="yes" checked name="user-recommend">
+                    <label for="yes">Definetly, Yes </label>
+                </li>
+                <li>
+                    <label for="maybe">
+                        <input type="radio" id="maybe" name="user-recommend">
+                        Maybe
+                    </label>
+                </li>
+                <li>
+                    <label for="not">
+                        <input type="radio" id="not" name="user-recommend">
+                        Not Sure
+                    </label>
+                </li>
+                <li>
+                    <label for="no">
+                        <input type="radio" id="no" name="user-recommend">
+                        Definetly,No
+                    </label>
+                </li>
+            </ul>
+
+        </div>
+        <div class="people">
+            <p>What is your fovorite feature of clarusway</p>
+            <select name="favfeature" id="favorite">
+                <option value="">select a option</option>
+                <option value="">Couses</option>
+                <option value="">Projects</option>
+                <option value="">community</option>
+                <option value="">Mentors</option>
+            </select>
+        </div>
+        <div class="people">
+            <p>Would you like to see improved? (Check all that apply)</p>
+            <ul>
+                <li><input type="checkbox" id="front" name=" frontend">
+                    <label for="front">
+                        Front-end Project</label></li>
+
+                <li><input type="checkbox" id="back" name=" backend">
+                    <label for="back">
+                        Back-end Project</label></li>
+
+                <li><input type="checkbox" id="data" name=" dataScience">
+                    <label for="data">
+                        Data Science</label></li>
+
+
+                <li><input type="checkbox" id="add" name=" additionalcourse">
+                    <label for="add">
+                        Additional Courses </label></li>
+
+
+            </ul>
+        </div>
+
+        <div class="people">
+            <p>Any comments or suggestions ?</p>
+
+            <textarea name="comment" id="text" style="resize:none;" cols="30px "  rows="2px" placeholder="">Enter your comment here ... Thanks for your comments ...
+            </textarea>
+        </div>
+
+        <input type="submit">
+    </form>
+
+
+</body>
+
+</html>
